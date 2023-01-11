@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="PIWC Asokwa Music Ministry" />
+    <meta name="author" content="Samuel Kweku Nyarko Arhinful" />
+    <title>PIWC ASK. MUS. MINS.</title>
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/carousel/"
+    />
+
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, 0.1);
+        border: solid rgba(0, 0, 0, 0.15);
+        border-width: 1px 0;
+        box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+          inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -0.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <img
+            src="images/PIWC ASK Logo.png"
+            alt="Logo"
+            width="75"
+            height="55"
+          />
+          <a class="navbar-brand" href="#">Home</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.piwcasokwa.com/give/"
+                  >Support</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/Aposlte.jpg" style="width: 100%" />
+
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Message from the Apostle</h1>
+                <p>
+                  Hear from the resident Apostle of PIWC Asokwa - Apostle Dr.
+                  J.I.T Buertey
+                </p>
+                <p>
+                  <a
+                    class="btn btn-lg btn-primary"
+                    href="https://www.piwcasokwa.com/ministers/apostle-dr-j-i-t-buertey/"
+                    >Read more</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/Choir_pic 2.jpg"
+              alt="choir image"
+              style="width: 100%"
+            />
+
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Events</h1>
+                <p>Follow to get updated on recent and upcoming programs.</p>
+                <p>
+                  <a
+                    class="btn btn-lg btn-primary"
+                    href="https://www.piwcasokwa.com/events/"
+                    >Learn more</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/choir_pic_sacrifice.jpg" alt="choir image" />
+
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Gallery</h1>
+                <p>Share in the memories made while sharing fellowship</p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#">Browse gallery</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Marketing messaging and featurettes
+  ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="/images/choir_pic_brobey.jpg" alt="video thumbnail" />
+
+            <h2 class="fw-normal">Sacrifice Medley</h2>
+            <p>Sacrifice Praise Medley - PIWC Asokwa Choir ft Asher Brobbey.</p>
+            <p>
+              <a class="btn btn-secondary" href="https://youtu.be/-eFCCRGKR6c"
+                >Watch video &raquo;</a
+              >
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="/images/choir_pic_nea.jpg" alt="video thumbnail" />
+
+            <h2 class="fw-normal">Nea Owui (Ye who died)</h2>
+            <p>
+              Nea Owui (Ye who died) - PIWC Asokwa Choir ft Gideon Kofi Gyimah
+            </p>
+            <p>
+              <a class="btn btn-secondary" href="https://youtu.be/59KE2VKWPi8"
+                >Watch video &raquo;</a
+              >
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="/images/Choir_pic 3.jpg" alt="video thumbnail" />
+
+            <h2 class="fw-normal">Sacrifice Blood Medley</h2>
+            <p>Sacrifice Blood Medley - PIWC Asokwa Choir ft Rozy Brown</p>
+            <p>
+              <a class="btn btn-secondary" href="https://youtu.be/MKIWAwZxtQw"
+                >Watch video &raquo;</a
+              >
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">
+              MESSAGE FROM THE MINISTRY PRESIDENT
+              <span class="text-muted">Eld. Emmanuel Amofa</span>
+            </h2>
+            <p class="lead">
+              The ministry wishes to invite you to our ministry meetings on
+              Saturdays. The Praise and Worship team meets from 3:00pm to 4:30pm
+              and the choir meets from 4:30pm to 7pm. We hope to see there.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="/images/amofa.jpeg" alt="image of ministry President" />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">
+              MESSAGE FROM THE MUSIC DIRECTOR
+              <span class="text-muted"> Dcn. Gideon Gyimah</span>
+            </h2>
+            <p class="lead">
+              There are many opportunities to grow and learn music but PIWC
+              Asokwa presents you an opportunity to learn music and grow
+              spiritually at the same time. Come join us learn songs of praise
+              and worship, and inspiration to lead God's people to adore him.
+            </p>
+          </div>
+          <div class="col">
+            <img src="/images/Gideon.jpeg" alt="image of Music Director" />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">
+              MESSAGE FROM THE PRAISE AND WORSHIP LEADER AND THE CHIEF MUSICIAN
+              <span class="text-muted">Mr. Michael Allotey</span>
+            </h2>
+            <p class="lead">
+              The praise and worship team leads the church of God to worship and
+              adore Him.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              src="/images/Mr. Allottey.jpeg"
+              alt="image of Chief Musician"
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <!-- /END THE FEATURETTES -->
+      </div>
+      <!-- /.container -->
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>
+          &copy; CoP PIWC Asokwa. &middot;
+          <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+        </p>
+      </footer>
+    </main>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
